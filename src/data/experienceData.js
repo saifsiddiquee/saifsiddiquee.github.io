@@ -15,7 +15,7 @@ export const experienceData = [
     },
     {
         id: 3,
-        company: 'Geeks\'n\'Technlogy Ltd.',
+        company: 'Geeks\'n\'Technology Ltd.',
         jobtitle: 'Programmer Intern',
         startYear: 'October 2018',
         endYear: 'February 2019'
