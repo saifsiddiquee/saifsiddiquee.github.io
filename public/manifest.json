@@ -1,6 +1,6 @@
 {
-  "short_name": "Developer Portfolio",
-  "name": "Developer Portfolio template by hhhrrrttt222111",
+  "short_name": "Saif Portfolio",
+  "name": "Saif Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://saifsiddiquee.github.io/saifsiddiquee.github.io",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
