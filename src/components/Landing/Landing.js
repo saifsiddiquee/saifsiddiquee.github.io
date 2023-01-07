@@ -12,7 +12,7 @@ import {
     FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
+    FaYoutube, FaFacebook,
     // FaBlogger,
 } from 'react-icons/fa';
 
@@ -75,6 +75,19 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
+                        {socialsData.facebook && (
+                            <a
+                                href={socialsData.facebook}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaFacebook
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Facebook'
+                                />
+                            </a>
+                        )}
                         {socialsData.linkedIn && (
                             <a
                                 href={socialsData.linkedIn}
@@ -114,7 +127,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {/*{socialsData.youtube && (
                             <a
                                 href={socialsData.youtube}
                                 target='_blank'
@@ -126,8 +139,8 @@ function Landing() {
                                     aria-label='YouTube'
                                 />
                             </a>
-                        )}
-                        {/* {socialsData.blogger && (
+                        )}*/}
+                        {/*{{socialsData.blogger && (
                             <a
                                 href={socialsData.blogger}
                                 target='_blank'
@@ -139,7 +152,7 @@ function Landing() {
                                     aria-label='Blogger'
                                 />
                             </a>
-                        )} */}
+                        )}}*/}
                     </div>
                 </div>
                 <img
