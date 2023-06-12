@@ -2,7 +2,7 @@ export const experienceData = [
     {
         id: 1,
         company: 'Brac IT Services Ltd.',
-        jobtitle: 'Software Engineer',
+        jobtitle: 'Sr. Software Engineer',
         startYear: '2020',
         endYear: 'Present'
     },

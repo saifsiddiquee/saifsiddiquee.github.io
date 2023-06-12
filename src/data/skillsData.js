@@ -3,6 +3,7 @@
     'Kotlin',
     'Dart',
     'Flutter',
+    'Swift',
     'Firebase',
     'Git',
     'MySQL',
