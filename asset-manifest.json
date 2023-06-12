@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.015ef24a.chunk.css",
-    "main.js": "/static/js/main.95daeaab.chunk.js",
-    "main.js.map": "/static/js/main.95daeaab.chunk.js.map",
+    "main.js": "/static/js/main.5e1202e2.chunk.js",
+    "main.js.map": "/static/js/main.5e1202e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c74bbbde.js",
     "runtime-main.js.map": "/static/js/runtime-main.c74bbbde.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.015ef24a.chunk.css.map": "/static/css/main.015ef24a.chunk.css.map",
     "static/js/2.e22c568e.chunk.js.LICENSE.txt": "/static/js/2.e22c568e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BestermindRegular.e58a1922.ttf",
-    "static/media/Resume-Saif.33aa8935.pdf": "/static/media/Resume-Saif.33aa8935.pdf",
+    "static/media/Resume-Saif.64f53e55.pdf": "/static/media/Resume-Saif.64f53e55.pdf",
     "static/media/adobe-xd.a6dca99d.svg": "/static/media/adobe-xd.a6dca99d.svg",
     "static/media/adobeaudition.afa937d5.svg": "/static/media/adobeaudition.afa937d5.svg",
     "static/media/after-effects.3c076652.svg": "/static/media/after-effects.3c076652.svg",
@@ -150,6 +150,6 @@
     "static/css/2.19627560.chunk.css",
     "static/js/2.e22c568e.chunk.js",
     "static/css/main.015ef24a.chunk.css",
-    "static/js/main.95daeaab.chunk.js"
+    "static/js/main.5e1202e2.chunk.js"
   ]
 }
