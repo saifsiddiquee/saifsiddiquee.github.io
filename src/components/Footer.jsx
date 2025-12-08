@@ -43,7 +43,7 @@ function Footer({ data }) {
                         © {currentYear} {name}. All rights reserved.
                     </p>
                     <p className="footer__credit">
-                        Built with <span className="footer__heart">♥</span> using React
+                        Built with <span className="footer__heart">♥</span> by Saif
                     </p>
                 </div>
             </div>
