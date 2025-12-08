@@ -1,0 +1,267 @@
+{
+    "personal_details": {
+        "name": "MD SAIF SIDDIQUE RAYHAN",
+        "title": "Sr. Software Engineer",
+        "location": "Dhaka, Bangladesh",
+        "phone": "(+880) 1676-449264",
+        "email": "saifsiddiquerayhan@gmail.com",
+        "linkedin": "saifsiddiquerayhan",
+        "github": "https://github.com/saifsiddiquee",
+        "stackoverflow": "https://stackoverflow.com/users/10585447",
+        "portfolio": "https://saifsiddiquee.github.io/"
+    },
+    "career_summary": "Dedicated and result driven Software Engineer with a robust background in Android and cross-platform mobile application development using Java, Kotlin, Dart, and Flutter. Also have an expertise in native IOS development. Proficient in designing and implementing user interfaces, integrating backend services, and managing databases with Room/SQLite. Adept at rapidly fixing bugs, solving problems, and enhancing application features based on client and business requirements. Proven track record of implementing CI/CD pipelines in GitLab to automate builds, mentoring junior engineers, and ensuring code quality through rigorous unit testing. Strong collaboration with business teams and UI designers to deliver high-quality, reliable, and scalable mobile applications.",
+    "work_experience": [
+        {
+            "company": "BRAC IT Services Ltd.",
+            "titles": [
+                {
+                    "title": "Senior Software Engineer",
+                    "dates": "January 2023 - Present",
+                    "technologies": [
+                        "Android",
+                        "Flutter",
+                        "Java",
+                        "Kotlin",
+                        "Dart",
+                        "Jetpack",
+                        "Laravel"
+                    ],
+                    "responsibilities": [
+                        "Worked with the business team to prioritise the list of enhancements and new features for the Smart Microfinance android application.",
+                        "Worked with room database migration.",
+                        "Rapidly fixing bugs and solving problems.",
+                        "Worked simultaneously on native and cross platform apps based on client requirements.",
+                        "Consistent pairing with and mentoring of junior engineers on the team.",
+                        "Implemented CI/CD in gitlab to automate the build.",
+                        "Developed internal Laravel applications."
+                    ]
+                },
+                {
+                    "title": "Software Engineer",
+                    "dates": "December 2021 - December 2022",
+                    "technologies": [
+                        "Android",
+                        "Flutter",
+                        "Java",
+                        "Kotlin",
+                        "Dart",
+                        "Jetpack",
+                        "Laravel"
+                    ],
+                    "responsibilities": [
+                        "Worked with the business team to prioritise the list of enhancements and new features for the Smart Microfinance android application.",
+                        "Worked with the UI designer to implement the new UI design with best practice for mobile devices.",
+                        "Integrated backend API service along with other services.",
+                        "Rapidately worked with data sync management.",
+                        "Integrated the offline database (Room/Sqlite) and experienced in writing complex query.",
+                        "Unit-testing code for robustness, including edge cases, usability and general reliability.",
+                        "Rapidly fixing bugs and solving problems."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Royalty Bangladesh Inc.",
+            "title": "Android Developer",
+            "dates": "January 2019 - October 2021",
+            "technologies": [
+                "Android",
+                "Java",
+                "Kotlin",
+                "Jetpack"
+            ],
+            "responsibilities": [
+                "Designed and implemented the UI with best practice for all types of mobile devices.",
+                "Integrated backend API service along with other services.",
+                "Integrated payment gateway services.",
+                "Interacted with other engineers to learn and spread best practices.",
+                "Worked with documenting the existing code base.",
+                "Maintained published application and continuously integrated new features.",
+                "Integrated analytics and crashlytics to identify the bugs and unexpected behaviours."
+            ]
+        }
+    ],
+    "project_accomplishments": [
+        {
+            "name": "Brac Agami",
+            "description": "BRAC financial application for Progoti clients.",
+            "details": [
+                "Flutter MVC architecture",
+                "State management with GetX.",
+                "Biometric authentication.",
+                "Firebase notifications.",
+                "Loan and savings overview and other related services."
+            ],
+            "links": {
+                "play_store": "https://play.google.com/store/apps/details?id=com.bracits.progoti",
+                "app_store": "https://apps.apple.com/us/app/brac-agami/id6446484925"
+            },
+            "featured": true
+        },
+        {
+            "name": "Smart PO",
+            "description": "BRAC microfinance Android application for Programme Organizer (PO)",
+            "details": [
+                "MVVM architecture.",
+                "Device Registration with unique device Id.",
+                "Fully offline capabilities with sync.",
+                "Dependency Injection using HILT.",
+                "Long running background task management with work-manager.",
+                "Complex and optimised database queries.",
+                "Dynamic UI generation from JSON.",
+                "Notifications",
+                "Firebase remote config"
+            ],
+            "featured": true
+        },
+        {
+            "name": "Smart BM",
+            "description": "BRAC microfinance Android application for Branch Manager (BM)",
+            "details": [
+                "MVVM architecture.",
+                "Device Registration with unique device Id.",
+                "Dependency Injection using HILT.",
+                "Combination of Online and Offline with manual and auto sync mechanism.",
+                "Long running background task management with work-manager.",
+                "Notifications",
+                "Remote config"
+            ],
+            "featured": true
+        },
+        {
+            "name": "BCB-Player",
+            "description": "Bangladesh cricket board player fitness track application for players.",
+            "featured": false
+        },
+        {
+            "name": "BCB-Physio",
+            "description": "Bangladesh cricket board player fitness track application for physicians.",
+            "featured": false
+        },
+        {
+            "name": "Manobik",
+            "description": "Application for disaster management and distribution the relief efficiently.",
+            "featured": false
+        },
+        {
+            "name": "Shield-Z",
+            "description": "A SOS based application to notify about the accident and crime to other users.",
+            "featured": false
+        },
+        {
+            "name": "Smart-Survey",
+            "description": "Application for doing surveys on a variety of questions dynamically.",
+            "featured": false
+        },
+        {
+            "name": "Royal Touch",
+            "description": "A share market Flutter application for retail stock brokerage",
+            "links": {
+                "play_store": "https://play.google.com/store/apps/details?id=com.royalcapitalbd.apps.royalcapital"
+            },
+            "featured": false
+        },
+        {
+            "name": "Royalty",
+            "description": "A loyalty platform Android application with payment gateway",
+            "featured": false
+        }
+    ],
+    "professional_skills": [
+        "Excellent communication skills in both technical and non-technical discussions.",
+        "Strong Java and Kotlin programming experience working in Android development.",
+        "Proven experience consuming RESTful JSON APIs.",
+        "Practical knowledge of common data structures and software design practices.",
+        "Experienced in cross platform application development using Flutter.",
+        "Hands-on experience in Swift UI and Xcode.",
+        "Experienced in preparing application base architecture using best practices.",
+        "Experienced in working with Spring boot and Laravel."
+    ],
+    "technical_skills": [
+        {
+            "name": "Android",
+            "category": "Mobile"
+        },
+        {
+            "name": "Kotlin",
+            "category": "Language"
+        },
+        {
+            "name": "Java",
+            "category": "Language"
+        },
+        {
+            "name": "Flutter",
+            "category": "Cross-Platform"
+        },
+        {
+            "name": "Dart",
+            "category": "Language"
+        },
+        {
+            "name": "Swift",
+            "category": "Language"
+        },
+        {
+            "name": "Jetpack Compose",
+            "category": "Mobile"
+        },
+        {
+            "name": "MVVM",
+            "category": "Architecture"
+        },
+        {
+            "name": "Room/SQLite",
+            "category": "Database"
+        },
+        {
+            "name": "REST API",
+            "category": "Backend"
+        },
+        {
+            "name": "Firebase",
+            "category": "Backend"
+        },
+        {
+            "name": "Git",
+            "category": "Tools"
+        },
+        {
+            "name": "CI/CD",
+            "category": "DevOps"
+        },
+        {
+            "name": "Laravel",
+            "category": "Backend"
+        },
+        {
+            "name": "Spring Boot",
+            "category": "Backend"
+        }
+    ],
+    "interests_and_activities": [
+        "Photography",
+        "Competitive Gaming",
+        "Problem solving"
+    ],
+    "educational_qualifications": [
+        {
+            "degree": "M.Sc in CSE",
+            "institution": "Jahangirnagar University",
+            "dates": "September 2019 - April 2021",
+            "cgpa": "3.75/4.00"
+        },
+        {
+            "degree": "B.Sc in CSE",
+            "institution": "American International University - Bangladesh",
+            "dates": "January 2015 - December 2018",
+            "cgpa": "3.47/4.00"
+        }
+    ],
+    "publication": {
+        "title": "Controlling Multimedia Player with Eye Gaze Using Webcam",
+        "description": "This application detects the eye gaze of a user sitting in front of a webcam. By tracking the eye it can control multimedia player functionalities such as play, pause, fast forward, and back forward.",
+        "paper_link": "https://ieeexplore.ieee.org/document/8644103"
+    }
+}

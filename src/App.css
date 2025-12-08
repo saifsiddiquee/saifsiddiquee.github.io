@@ -1,6 +1,20 @@
-:root {
-    --primaryFont: 'Poppins', sans-serif;
-    /* --primaryFont: 'Montserrat', sans-serif; */
-    /* --primaryFont: 'Raleway', sans-serif; */
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+main {
+    flex: 1;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-padding-top: 80px;
+}
+
+/* Selection color */
+::selection {
+    background: rgba(0, 212, 255, 0.3);
+    color: var(--color-text-primary);
+}

@@ -1,0 +1,85 @@
+.footer {
+    padding: var(--space-12) 0 var(--space-8);
+    background: var(--color-bg-secondary);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-8);
+}
+
+.footer__brand {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.footer__logo {
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.footer__tagline {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.footer__socials {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.footer__socials a {
+    color: var(--color-text-muted);
+    transition: all var(--transition-fast);
+}
+
+.footer__socials a:hover {
+    color: var(--color-accent-primary);
+    transform: translateY(-2px);
+}
+
+.footer__divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: var(--space-6);
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.footer__credit {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.footer__heart {
+    color: #ff6b6b;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+        gap: var(--space-6);
+        text-align: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        gap: var(--space-2);
+        text-align: center;
+    }
+}

@@ -1,0 +1,132 @@
+.education__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-8);
+}
+
+.education__degrees {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.education__card {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.education__icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-lg);
+    color: var(--color-bg-primary);
+    flex-shrink: 0;
+}
+
+.education__details {
+    flex: 1;
+}
+
+.education__degree {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-1);
+}
+
+.education__institution {
+    font-size: var(--font-size-base);
+    color: var(--color-accent-primary);
+    margin-bottom: var(--space-3);
+}
+
+.education__meta {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.education__dates,
+.education__cgpa {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.education__cgpa {
+    background: var(--color-bg-glass);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Publication */
+.education__publication {
+    display: flex;
+    flex-direction: column;
+    border-color: rgba(139, 92, 246, 0.3);
+}
+
+.education__publication:hover {
+    box-shadow: var(--shadow-glow-purple);
+}
+
+.education__publication-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+}
+
+.education__publication-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--color-accent-secondary), var(--color-accent-tertiary));
+    border-radius: var(--radius-md);
+    color: var(--color-bg-primary);
+}
+
+.education__publication-label {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-accent-secondary);
+}
+
+.education__publication-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-3);
+}
+
+.education__publication-description {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-6);
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    .education__content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .education__meta {
+        flex-direction: column;
+        gap: var(--space-2);
+    }
+
+    .education__cgpa {
+        align-self: flex-start;
+    }
+}

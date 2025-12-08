@@ -1,0 +1,115 @@
+.projects__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-6);
+}
+
+.projects__card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.projects__card--featured {
+    border-color: rgba(0, 212, 255, 0.3);
+}
+
+.projects__card--featured::before {
+    content: 'Featured';
+    position: absolute;
+    top: -10px;
+    right: var(--space-4);
+    background: var(--gradient-primary);
+    color: var(--color-bg-primary);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full);
+}
+
+.projects__card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-4);
+}
+
+.projects__icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-glass);
+    border-radius: var(--radius-lg);
+    color: var(--color-accent-primary);
+}
+
+.projects__links {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.projects__link {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-muted);
+    transition: all var(--transition-fast);
+    border-radius: var(--radius-md);
+}
+
+.projects__link:hover {
+    color: var(--color-accent-primary);
+    background: var(--color-bg-glass);
+}
+
+.projects__title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--space-2);
+    color: var(--color-text-primary);
+}
+
+.projects__description {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-4);
+    flex: 1;
+}
+
+.projects__details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding-top: var(--space-4);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projects__details li {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    padding-left: var(--space-4);
+    position: relative;
+}
+
+.projects__details li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-tertiary);
+}
+
+.projects__show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-10);
+}
+
+@media (max-width: 768px) {
+    .projects__grid {
+        grid-template-columns: 1fr;
+    }
+}
