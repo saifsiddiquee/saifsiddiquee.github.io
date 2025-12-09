@@ -40,7 +40,7 @@ function Navbar() {
         <nav className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
             <div className="navbar__container container">
                 <a href="#" className="navbar__logo">
-                    <span className="text-gradient">SR</span>
+                    <img src="/vite.svg" alt="SR" className="avatar" />
                 </a>
 
                 <button

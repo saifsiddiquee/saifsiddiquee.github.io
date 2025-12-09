@@ -13,8 +13,8 @@ function Footer({ data }) {
             <div className="container">
                 <div className="footer__content">
                     <div className="footer__brand">
-                        <span className="text-gradient footer__logo">SR</span>
-                        <p className="footer__tagline">Building exceptional mobile experiences</p>
+                        <img src="/saif.jpg" alt={name} className="footer__avatar" />
+                        <p className="footer__tagline">Building exceptional experiences for everyone</p>
                     </div>
 
                     <div className="footer__socials">

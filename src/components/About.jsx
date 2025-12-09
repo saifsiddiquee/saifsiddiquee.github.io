@@ -30,11 +30,11 @@ function About({ data }) {
                                 <span className="about__highlight-label">Years Experience</span>
                             </div>
                             <div className="about__highlight">
-                                <span className="about__highlight-number text-gradient">10+</span>
+                                <span className="about__highlight-number text-gradient">15+</span>
                                 <span className="about__highlight-label">Projects Delivered</span>
                             </div>
                             <div className="about__highlight">
-                                <span className="about__highlight-number text-gradient">5+</span>
+                                <span className="about__highlight-number text-gradient">10+</span>
                                 <span className="about__highlight-label">Technologies Mastered</span>
                             </div>
                         </div>

@@ -23,6 +23,17 @@
     letter-spacing: -1px;
 }
 
+/* Avatar used in footer brand */
+.footer__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 12px var(--color-accent-primary);
+    border: 2px gradient(var(--gradient-glow));
+}
+
 .footer__tagline {
     font-size: var(--font-size-sm);
     color: var(--color-text-muted);

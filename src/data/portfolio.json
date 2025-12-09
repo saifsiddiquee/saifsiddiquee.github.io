@@ -1,6 +1,6 @@
 {
     "personal_details": {
-        "name": "MD SAIF SIDDIQUE RAYHAN",
+        "name": "SAIF SIDDIQUE RAYHAN",
         "title": "Sr. Software Engineer",
         "location": "Dhaka, Bangladesh",
         "phone": "(+880) 1676-XXXXXX",
@@ -25,6 +25,7 @@
                         "Kotlin",
                         "Dart",
                         "Jetpack",
+                        "PHP",
                         "Laravel"
                     ],
                     "responsibilities": [
@@ -34,7 +35,7 @@
                         "Worked simultaneously on native and cross platform apps based on client requirements.",
                         "Consistent pairing with and mentoring of junior engineers on the team.",
                         "Implemented CI/CD in gitlab to automate the build.",
-                        "Developed internal Laravel applications."
+                        "Worked in backend technologies (Laravel, SpringBoot) for creating and maintaining internal tools."
                     ]
                 },
                 {
@@ -47,6 +48,7 @@
                         "Kotlin",
                         "Dart",
                         "Jetpack",
+                        "PHP",
                         "Laravel"
                     ],
                     "responsibilities": [
@@ -84,22 +86,6 @@
     ],
     "project_accomplishments": [
         {
-            "name": "Brac Agami",
-            "description": "BRAC financial application for Progoti clients.",
-            "details": [
-                "Flutter MVC architecture",
-                "State management with GetX.",
-                "Biometric authentication.",
-                "Firebase notifications.",
-                "Loan and savings overview and other related services."
-            ],
-            "links": {
-                "play_store": "https://play.google.com/store/apps/details?id=com.bracits.progoti",
-                "app_store": "https://apps.apple.com/us/app/brac-agami/id6446484925"
-            },
-            "featured": true
-        },
-        {
             "name": "Smart PO",
             "description": "BRAC microfinance Android application for Programme Organizer (PO)",
             "details": [
@@ -130,6 +116,22 @@
             "featured": true
         },
         {
+            "name": "Brac Agami",
+            "description": "BRAC financial application for Progoti clients.",
+            "details": [
+                "Flutter MVC architecture",
+                "State management with GetX.",
+                "Biometric authentication.",
+                "Firebase notifications.",
+                "Loan and savings overview and other related services."
+            ],
+            "links": {
+                "play_store": "https://play.google.com/store/apps/details?id=com.bracits.progoti",
+                "app_store": "https://apps.apple.com/us/app/brac-agami/id6446484925"
+            },
+            "featured": true
+        },
+        {
             "name": "BCB-Player",
             "description": "Bangladesh cricket board player fitness track application for players.",
             "featured": false
@@ -137,6 +139,30 @@
         {
             "name": "BCB-Physio",
             "description": "Bangladesh cricket board player fitness track application for physicians.",
+            "featured": false
+        },
+        {
+            "name": "Fund Management System",
+            "description": "Application BRAC's project fund management system.",
+            "details": [
+                "Laravel Framework based backend application.",
+                "MVC architecture",
+                "SSO login integration using Keycloak.",
+                "Authentication and role based access control.",
+                "Data migration from legacy system."
+            ],
+            "featured": false
+        },
+        {
+            "name": "Calculus",
+            "description": "Brac It's internal tracking management system.",
+            "details": [
+                "Laravel Framework based backend application.",
+                "MVC architecture",
+                "SSO login integration using Keycloak.",
+                "Data sync from other internal applications.",
+                "Scheduling tasks using laravel scheduler."
+            ],
             "featured": false
         },
         {
@@ -176,11 +202,18 @@
         "Experienced in cross platform application development using Flutter.",
         "Hands-on experience in Swift UI and Xcode.",
         "Experienced in preparing application base architecture using best practices.",
-        "Experienced in working with Spring boot and Laravel."
+        "Experienced in working with Spring boot and Laravel.",
+        "Ability to work independently as well as in a team environment.",
+        "Strong problem-solving skills and attention to detail.",
+        "Works along with AI agents and LLMs to boost productivity."
     ],
     "technical_skills": [
         {
             "name": "Android",
+            "category": "Mobile"
+        },
+        {
+            "name": "IOS",
             "category": "Mobile"
         },
         {
@@ -204,7 +237,19 @@
             "category": "Language"
         },
         {
+            "name": "PHP",
+            "category": "Language"
+        },
+        {
+            "name": "Python",
+            "category": "Language"
+        },
+        {
             "name": "Jetpack Compose",
+            "category": "Mobile"
+        },
+        {
+            "name": "KMM",
             "category": "Mobile"
         },
         {
@@ -212,7 +257,23 @@
             "category": "Architecture"
         },
         {
+            "name": "Clean Architecture",
+            "category": "Architecture"
+        },
+        {
+            "name": "MVC",
+            "category": "Architecture"
+        },
+        {
             "name": "Room/SQLite",
+            "category": "Database"
+        },
+        {
+            "name": "MySQL",
+            "category": "Database"
+        },
+        {
+            "name": "PostgreSQL",
             "category": "Database"
         },
         {
@@ -225,6 +286,10 @@
         },
         {
             "name": "Git",
+            "category": "Tools"
+        },
+        {
+            "name": "LLMS/AI Agents",
             "category": "Tools"
         },
         {
@@ -242,21 +307,22 @@
     ],
     "interests_and_activities": [
         "Photography",
-        "Competitive Gaming",
-        "Problem solving"
+        "Traveling",
+        "Artificial Intelligence",
+        "Problem Solving"
     ],
     "educational_qualifications": [
         {
             "degree": "M.Sc in CSE",
             "institution": "Jahangirnagar University",
-            "dates": "September 2019 - April 2021",
-            "cgpa": "3.75/4.00"
+            "dates": "September 2019 - April 2021"
+        
         },
         {
             "degree": "B.Sc in CSE",
             "institution": "American International University - Bangladesh",
-            "dates": "January 2015 - December 2018",
-            "cgpa": "3.47/4.00"
+            "dates": "January 2015 - December 2018"
+        
         }
     ],
     "publication": {

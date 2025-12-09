@@ -36,7 +36,7 @@ function Education({ data }) {
                                     <p className="education__institution">{edu.institution}</p>
                                     <div className="education__meta">
                                         <span className="education__dates">{edu.dates}</span>
-                                        <span className="education__cgpa">CGPA: {edu.cgpa}</span>
+                                        {/* <span className="education__cgpa">CGPA: {edu.cgpa}</span> */}
                                     </div>
                                 </div>
                             </div>

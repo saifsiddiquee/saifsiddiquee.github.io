@@ -161,6 +161,15 @@ button {
   background-clip: text;
 }
 
+/* Avatar brand */
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
 /* ===================================
    LAYOUT UTILITIES
    =================================== */
