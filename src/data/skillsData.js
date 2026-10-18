@@ -1,98 +1,24 @@
- export const skillsData = [
-    'Java',
-    'Kotlin',
-    'Dart',
-    'Flutter',
-    'Swift',
-    'Firebase',
-    'Git',
-    'MySQL',
-    'Figma',
+export const skillsCategories = [
+  {
+    category: 'Languages',
+    skills: ['Kotlin', 'Java', 'Dart', 'Swift', 'TypeScript', 'JavaScript', 'C#', 'SQL']
+  },
+  {
+    category: 'Mobile & Architecture',
+    skills: ['Android SDK', 'Flutter', 'Jetpack Compose', 'MVVM & Clean Architecture', 'BLoC Pattern', 'Coroutines & Flow', 'WorkManager', 'Offline-First Sync']
+  },
+  {
+    category: 'Backend & Cloud',
+    skills: ['RESTful APIs', 'Node.js', 'Spring Boot', 'WebSockets', 'Firebase', 'Microservices', 'GraphQL']
+  },
+  {
+    category: 'Data & Security',
+    skills: ['Room SQLite', 'SQLCipher (Encryption)', 'MySQL', 'PostgreSQL', 'Redis', 'OAuth2 / Biometrics']
+  },
+  {
+    category: 'Engineering Tools & DevOps',
+    skills: ['Git & GitHub Actions', 'CI/CD Pipelines', 'Figma', 'Postman', 'Gradle', 'Android Studio Profiler', 'Unit & UI Testing']
+  }
 ]
 
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
-
-// AVAILABLE SKILLS
-
-/* 
-    HTML
-    CSS
-    JS 
-    React
-    Next JS
-    Nuxt JS
-    Node JS
-    Vue
-    Angular
-    Docker
-    Photoshop
-    Illustrator
-    Svelte
-    GCP
-    Azure
-    Fastify
-    Haxe
-    Ionic
-    Markdown
-    Microsoft Office
-    Picsart
-    Sketch
-    Unity
-    WolframAlpha
-    Adobe XD
-    After Effects
-    Bootstrap
-    Bulma
-    CapacitorJs
-    Coffeescript
-    MemSQL
-    C
-    C++
-    C#
-    Python
-    Java
-    Julia
-    Matlab
-    Swift
-    Ruby
-    Kotlin
-    Go
-    PHP
-    Flutter
-    Dart
-    Typescript
-    Swift
-    Git
-    Figma
-    Canva
-    Ubuntu
-    Bootstrap
-    MongoDB
-    Tailwind
-    ViteJS
-    VuetifyJS
-    MySQL
-    PostgreSQL
-    AWS
-    Firebase
-    Blender
-    Premiere Pro
-    Adobe Audition
-    Deno
-    Django
-    Gimp
-    Graphql
-    Lightroom
-    MaterialUI
-    Nginx
-    Numpy
-    OpenCV
-    Pytorch
-    Selenium
-    Strapi
-    Tensorflow
-    Webex
-    Wordpress
-*/
+export const skillsData = skillsCategories.flatMap(c => c.skills)

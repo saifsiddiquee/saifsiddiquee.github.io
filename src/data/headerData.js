@@ -1,9 +1,16 @@
-import resume from '../assets/pdf/Resume-Saif.pdf'
-
 export const headerData = {
-    name: 'Saif Siddique Rayhan',
-    title: "Mobile Application Developer",
-    description:"To me, the role of software engineering is great. It is expanding into every domain our lives. The fast growth of IT industry has given a tremendous push to the software engineering. It is one of the most challenging, responsible and important job in today’s scenario. I think that every individual should have at least some basic knowledge about software engineering as it will be very useful in our day to day lives.",
-    image: 'https://images2.imgbox.com/9e/db/Gpy3v3gd_o.jpg',
-    resumePdf: resume
+  name: 'Saif Siddique Rayhan',
+  title: 'Senior Software Engineer',
+  roleFocus: 'Mobile & Distributed Systems · Android, Flutter, Kotlin, Swift, Java',
+  tagline: 'Shipping 30% faster with AI-driven TDD, architecting systems for millions, and leading engineering teams that turn technical roadmaps into revenue.',
+  bio: 'Senior Software Engineer with 5+ years of engineering experience across BRAC IT Services and fintech startups. Specializing in offline-first architecture, enterprise mobile security, clean code patterns, and scalable distributed systems.',
+  image: '/profile_carbon.jpeg',
+  resumePdf: 'https://bit.ly/4Bb32qS',
+  status: 'Open to high-impact technical challenges',
+  stats: [
+    { label: 'Experience', value: '6+ Years' },
+    { label: 'Active Users / Records', value: '1M+' },
+    { label: 'Production Apps', value: '12+' },
+    { label: 'Core System Uptime', value: '99.9%' },
+  ],
 }

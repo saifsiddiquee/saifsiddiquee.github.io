@@ -180,9 +180,8 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
                                     target='_blank'
-                                    rel='noreferrer'
+                                    rel='noopener noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
                                         Download CV
